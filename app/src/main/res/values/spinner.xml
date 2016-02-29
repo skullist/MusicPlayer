@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="close_time">
+        <item>10分钟后关闭</item>
+        <item>15分钟后关闭 </item>
+        <item>30分钟后关闭</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">音乐播放器</string>
+    <string name="tab_1">播放器</string>
+    <string name="tab_2">列表</string>
+    <string name="tab_3">下载音乐</string>
+    <string name="agree">确定</string>
+    <string name="disagree">取消</string>
+    <string name="option">设置</string>
+    <string name="music_title_default">曲目</string>
+    <string name="music_artist_default">艺术家</string>
+    <string name="menu_setting_text">设置</string>
+    <string name="menu_exit_text">退出</string>
+</resources>

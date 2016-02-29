@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/background_weak"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_title"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:text="@string/music_title_default"
+            />
+        <TextView
+            android:id="@+id/music_artist"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="@string/music_artist_default"
+            />
+
+        <com.example.zhuyahui.musicplayer.playview.MaterialMusicPlayerView
+            android:id="@+id/detail_player_view"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"
+            app:buttonColor="@color/background_weak"
+            app:progressEmptyColor="#20FFFFFF"
+            app:progressLoadedColor="@color/background_strong"
+            app:textColor="#80FFFFFF"
+            app:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/music_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/background_strong"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/loop_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/repeat"
+            android:layout_margin="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/pre_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/previous"
+            android:layout_margin="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/next_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_margin="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/close_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/time"
+            android:layout_margin="16dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

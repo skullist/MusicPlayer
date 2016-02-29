@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_weak">#607D8B</color>
+    <color name="background_strong">#455A64</color>
+    <color name="text">#3B4347</color>
+    <color name="menu_title">#888888</color>
+</resources>
